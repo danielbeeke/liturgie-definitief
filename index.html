@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Liturgie</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-html="slides/welcome.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-lyric="Breng ons samen" data-markdown="slides/lyrics/breng-ons-samen.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-lyric="Ik kniel neer en belijd" data-markdown="slides/lyrics/ik-kniel-neer-en-belijd.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-lyric="Laat het huis gevuld zijn" data-markdown="slides/lyrics/laat-het-huis-gevuld-zijn.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-lyric="Ik wil jou van harte dienen" data-markdown="slides/lyrics/ik-wil-jou-van-harte-dienen.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/video.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/schriftlezing.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-lyric="Prijs onze heer" data-markdown="slides/lyrics/prijs-onze-heer.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-lyric="Gebed om zegen" data-markdown="slides/lyrics/gebed-om-zegen.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="black" ></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-lyric="Geef ons vrede" data-markdown="slides/lyrics/geef-ons-vrede.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/bg.png" data-background-size="60%" ></section>
+
+
+                    
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+
+          // Full list of configuration options available at:
+          // https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            controls: false,
+            progress: true,
+            history: true,
+            autoPlayMedia: true,
+            center: true,
+            width: 960,
+            height: 700,
+
+            // Factor of the display size that should remain empty around the content
+            margin: 0,
+            transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [
+              { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'js/lyrics.js', condition: function() { return !!document.querySelector( '[data-lyric]' ); } },
+              { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
+              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+            ]
+          });
+
+        </script>
+    </body>
+
+</html>
