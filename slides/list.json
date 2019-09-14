@@ -1,0 +1,103 @@
+[
+    "welcome.html",
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    {
+        "filename": "lyrics/breng-ons-samen.md",
+        "attr": {
+            "data-lyric": "Breng ons samen"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    {
+        "filename": "lyrics/ik-kniel-neer-en-belijd.md",
+        "attr": {
+            "data-lyric": "Ik kniel neer en belijd"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    {
+        "filename": "lyrics/laat-het-huis-gevuld-zijn.md",
+        "attr": {
+            "data-lyric": "Laat het huis gevuld zijn"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    {
+        "filename": "lyrics/ik-wil-jou-van-harte-dienen.md",
+        "attr": {
+            "data-lyric": "Ik wil jou van harte dienen"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    "video.html",
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    "schriftlezing.html",
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    {
+        "filename": "lyrics/prijs-onze-heer.md",
+        "attr": {
+            "data-lyric": "Prijs onze heer"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    {
+        "filename": "lyrics/gebed-om-zegen.md",
+        "attr": {
+            "data-lyric": "Gebed om zegen"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "black"
+        }
+    },
+    {
+        "filename": "lyrics/geef-ons-vrede.md",
+        "attr": {
+            "data-lyric": "Geef ons vrede"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "resources/bg.png",
+            "data-background-size": "60%"
+        }
+    }
+]
